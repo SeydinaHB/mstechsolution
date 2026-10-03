@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MsTECH | Création de sites web au service des jeunes entrepreneurs</title>
+<meta name="description" content="MsTECH crée votre site vitrine ou boutique en ligne. 4 packs à partir de 60.000 F, commande via WhatsApp, site autonome, panier d'achat.">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="MsTECH, accueil">
+    <img src="images/logo.svg" alt="" width="40" height="40">
+    <span>MsTECH</span>
+  </a>
+  <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  <nav id="menu" class="menu">
+    <a href="#packs">Nos packs</a>
+    <a href="#ajouts">Ajout de produits</a>
+    <a href="#etapes">Comment ça marche</a>
+    <a href="#apropos">À propos</a>
+    <a href="#contact" class="btn btn-lime btn-sm">Demander un devis</a>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="slogan">Au service des jeunes entrepreneurs</p>
+    <h1>Votre boutique en ligne,<br>prête à vendre.</h1>
+    <p class="lead">Nous créons des sites vitrines professionnels pour les jeunes qui lancent leur activité : vos produits bien présentés, et vos clients qui commandent directement sur WhatsApp.</p>
+    <div class="hero-cta">
+      <a href="#packs" class="btn btn-lime">Voir les packs</a>
+      <a href="#contact" class="btn btn-ghost">Parler à MsTECH</a>
+    </div>
+    <p class="hero-note">À partir de <strong>60.000 F</strong>. Vos premiers produits sont ajoutés gratuitement.</p>
+  </div>
+
+  <div class="hero-visual" aria-hidden="true">
+    <img class="hero-photo" src="images/hero.jpg" alt="" onerror="this.remove()">
+    <div class="browser">
+      <div class="browser-bar"><i></i><i></i><i></i><span>maboutique.com</span></div>
+      <div class="browser-body">
+        <div class="shop-head">Ma Boutique</div>
+        <div class="shop-grid">
+          <div class="item"><div class="thumb"></div><b>Sac cuir</b><small>15.000 F</small><u>Commander</u></div>
+          <div class="item"><div class="thumb t2"></div><b>Montre</b><small>25.000 F</small><u>Commander</u></div>
+          <div class="item"><div class="thumb t3"></div><b>Casque</b><small>12.000 F</small><u>Commander</u></div>
+        </div>
+      </div>
+    </div>
+    <div class="bubble">Bonjour, je veux commander le sac cuir.</div>
+  </div>
+</section>
+
+<!-- PACKS -->
+<section class="section" id="packs">
+  <div class="wrap">
+    <h2>4 packs, un pour chaque étape de votre activité</h2>
+    <p class="sub">Choisissez le pack qui correspond à ce que vous vendez aujourd'hui. Vous pourrez passer à un pack supérieur quand votre activité grandit.</p>
+
+    <div class="packs">
+      <article class="pack">
+        <h3>Pack Standard</h3>
+        <p class="pack-for">Site simple d'affichage de produits</p>
+        <p class="price">60.000 <span>F</span></p>
+        <ul>
+          <li>Présentation de vos produits</li>
+          <li class="no">Pas de bouton de commande</li>
+        </ul>
+        <a href="#contact" class="btn btn-dark" data-pack="Standard">Choisir Standard</a>
+      </article>
+
+      <article class="pack">
+        <h3>Pack Medium</h3>
+        <p class="pack-for">Site vitrine avec commande</p>
+        <p class="price">80.000 <span>F</span></p>
+        <ul>
+          <li>Affichage de vos produits</li>
+          <li>Bouton de commande direct via WhatsApp</li>
+        </ul>
+        <a href="#contact" class="btn btn-dark" data-pack="Medium">Choisir Medium</a>
+      </article>
+
+      <article class="pack">
+        <h3>Pack Pro</h3>
+        <p class="pack-for">Site 100% autonome</p>
+        <p class="price">140.000 <span>F</span></p>
+        <ul>
+          <li>Tout le pack Medium</li>
+          <li>Ajoutez, modifiez et supprimez vos produits vous-même</li>
+          <li>Aucun informaticien nécessaire</li>
+        </ul>
+        <a href="#contact" class="btn btn-dark" data-pack="Pro">Choisir Pro</a>
+      </article>
+
+      <article class="pack pack-vip">
+        <span class="tag">La boutique complète</span>
+        <h3>Pack VIP</h3>
+        <p class="pack-for">Votre vraie boutique en ligne</p>
+        <p class="price">220.000 <span>F</span></p>
+        <ul>
+          <li>Tout le pack Pro</li>
+          <li>Masquez les produits en rupture de stock</li>
+          <li>Créez vos propres catégories</li>
+          <li>Panier d'achat : plusieurs produits à la fois</li>
+        </ul>
+        <a href="#contact" class="btn btn-lime" data-pack="VIP">Choisir VIP</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- AJOUTS -->
+<section class="section section-dark" id="ajouts">
+  <div class="wrap split">
+    <div>
+      <h2>Vos premiers produits sont offerts</h2>
+      <p class="sub">Pour les packs Standard et Medium, nous ajoutons gratuitement vos premiers produits avant la mise en ligne.</p>
+      <p class="sub">Après la mise en ligne, vous voulez ajouter d'autres produits ? C'est simple et le prix est clair, sans surprise. Avec les packs Pro et VIP, vous le faites vous-même.</p>
+    </div>
+    <div class="fee">
+      <p class="fee-title">Ajout d'un produit après la mise en ligne</p>
+      <p class="fee-total">3.000 <span>F</span></p>
+      <dl>
+        <div><dt>Hébergement</dt><dd>2.000 F</dd></div>
+        <div><dt>Main d'œuvre</dt><dd>1.000 F</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ETAPES -->
+<section class="section" id="etapes">
+  <div class="wrap">
+    <h2>De votre idée à votre site en ligne</h2>
+    <ol class="steps">
+      <li><h3>Vous choisissez un pack</h3><p>Dites-nous ce que vous vendez et comment vous voulez recevoir vos commandes.</p></li>
+      <li><h3>Vous nous envoyez vos produits</h3><p>Photos, noms et prix. Nous préparons tout et vous montrons le résultat.</p></li>
+      <li><h3>Votre site est mis en ligne</h3><p>Vos clients le découvrent, le partagent et commandent depuis leur téléphone.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- A PROPOS -->
+<section class="section section-soft" id="apropos">
+  <div class="wrap about">
+    <figure class="ceo">
+      <div class="ceo-frame">
+        <img src="images/ceo.jpeg" alt="Mohamed Ndiaye, CEO de MsTECH" width="480" height="560" onerror="this.parentNode.classList.add('empty'); this.remove()">
+        <span class="ceo-initials" aria-hidden="true">MN</span>
+      </div>
+      <figcaption><strong>Mohamed Ndiaye</strong><br>CEO de MsTECH</figcaption>
+    </figure>
+
+    <div class="about-text">
+      <h2>Chaque entrepreneur mérite d'être vu</h2>
+      <p>Je m'appelle Mohamed Ndiaye, fondateur et CEO de MsTECH. J'ai créé cette entreprise pour une raison simple : trop de jeunes ont de bons produits et de belles idées, mais personne ne les voit.</p>
+      <p>Ma motivation est de donner à chaque entrepreneur l'occasion de parfaire sa visibilité. Un site professionnel, des tarifs honnêtes et un accompagnement de A à Z : c'est ce que j'aurais voulu avoir en commençant.</p>
+     <p>Nous le savons : certains professionnels du numérique trouveront nos tarifs bas par rapport au travail réellement demandé, et ils auront raison. Un site demande du temps, de la rigueur et du savoir-faire, et nous respectons profondément ce métier.
+
+Mais chez MsTECH, nous avons fait un choix. Derrière chaque projet, il y a un jeune qui démarre avec peu de moyens, beaucoup de courage et une grande ambition. Pour lui, un site à plusieurs centaines de milliers de francs reste hors de portée, et sans visibilité, son idée risque de rester dans l'ombre.
+
+Alors nous avons décidé d'ajuster nos prix pour que chaque jeune entrepreneur ait sa chance d'être vu. Notre priorité n'est pas de gagner le plus possible, mais d'être vraiment au service de ceux qui commencent. Merci de comprendre notre démarche.</p>
+      <p class="devise">MsTECH, c'est l'entreprise au service des jeunes entrepreneurs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="wrap split">
+    <div>
+      <h2>Lancez votre site avec MsTECH</h2>
+      <p class="sub">Décrivez votre projet. Votre message arrive directement sur notre WhatsApp, et nous vous répondons rapidement avec un devis.</p>
+      <a class="btn btn-lime" data-wa="Bonjour MsTECH, je veux créer un site pour mon activité.">Écrire sur WhatsApp</a>
+    </div>
+
+    <form class="form" id="devis" novalidate>
+      <label>Votre nom
+        <input type="text" name="nom" autocomplete="name" required>
+      </label>
+      <label>Pack souhaité
+        <select name="pack">
+          <option>Je ne sais pas encore</option>
+          <option>Standard</option>
+          <option>Medium</option>
+          <option>Pro</option>
+          <option>VIP</option>
+        </select>
+      </label>
+      <label>Votre activité
+        <textarea name="msg" rows="3" placeholder="Ex : je vends des vêtements à Dakar"></textarea>
+      </label>
+      <p class="err" role="alert" hidden>Indiquez votre nom pour continuer.</p>
+      <button class="btn btn-dark" type="submit">Envoyer ma demande sur WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <a class="brand" href="#top"><img src="images/logo.svg" alt="" width="36" height="36"><span>MsTECH</span></a>
+    <p>Au service des jeunes entrepreneurs</p>
+    <p class="copy">© <span id="year"></span> MsTECH. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa="Bonjour MsTECH, j'ai une question." aria-label="Écrire sur WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.100c-.2-.1-1.5-.7-1.700-.8s-.4-.1-.6.100-.7.8-.8 1-.3.200-.5.100a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.200-.4.700-1.300.1-.2 0-.3 0-.4l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.300 3 3 0 0 0-.9 2.200 5.200 5.200 0 0 0 1.100 2.700 11.900 11.900 0 0 0 4.600 4.100c1.700.7 2.400.8 3.300.7a2.800 2.800 0 0 0 1.800-1.300 2.200 2.200 0 0 0 .2-1.300c-.1-.1-.3-.2-.5-.3Z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
