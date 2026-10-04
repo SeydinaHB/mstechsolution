@@ -1,5 +1,4 @@
-// ⚠️ Remplacez par le numéro WhatsApp de MsTECH (indicatif pays + numéro, sans + ni espaces)
-const WHATSAPP_NUMBER = "221788710815";
+const WHATSAPP_NUMBER = "221764764758";
 
 const waLink = (text) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
